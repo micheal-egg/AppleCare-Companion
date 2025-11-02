@@ -1,0 +1,22 @@
+# Xcode user data
+*.xcuserstate
+xcuserdata/
+DerivedData/
+
+# Build products
+build/
+*.o
+*.swp
+
+# macOS junk
+.DS_Store
+
+# Swift Package Manager
+.swiftpm/
+.build/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
