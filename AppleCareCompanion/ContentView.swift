@@ -8,13 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
-    @Binding var document: AppleCareCompanionDocument
-
+    @StateObject private var viewModel = DeviceListViewModel()
+    
     var body: some View {
-        TextEditor(text: $document.text)
+        Text("Hello, AppleCare!") // temporary placeholder
     }
-}
-
-#Preview {
-    ContentView(document: .constant(AppleCareCompanionDocument()))
 }
